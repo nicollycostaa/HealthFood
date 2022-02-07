@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background:#fdfdfd ;
+    padding-top:78px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+/*Deixando o menu fixo e atribuindo o tamanho e a posição*/
+#area-menu{
+    background: #E6AF91;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 40px;
+}
+
+#conteudo-menu{
+    margin-left: 580px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* barra de navegação do menu*/
+#menu{
+    margin-top: -75px;
+    margin-left: 100px;
+}
+
+#menu-dois{
+    margin-top: -25px;
+    margin-left: 850px;
+}
+
+#face{
+    margin-top: -35px;
+    margin-left: 60px;
+}
+
+#whats{
+    margin-top: -32px;
+    margin-left: 130px;
+}
+
+ul#navegacao li{
+    float: left;
+}
+
+ul#navegacao a{
+    color: #6A2E2A;
+    text-transform:uppercase;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+ul#navegacao a:hover{
+    background:#ffcaad;
+}
+
+/*Container*/
+#container{
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    width: 1290px;
+    min-width: 740px; /*Estudar e anotar*/
+    max-width: 1350px;
+}
+
+#cafeteria{
+    text-align: center;
+    height: 100%;
+}
+
+#rodape{
+    clear: both;
+    padding: 16px;
+    background: #faf4f1;
+    color: #6A2E2A;
+    text-align: center;
+    
+}
+
+/*Padão */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
